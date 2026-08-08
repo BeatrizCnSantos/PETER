@@ -1,10 +1,15 @@
-from google import genai
+from core.providers.gemini import gerar_resposta
 
-client = genai.Client()
 
-interaction = client.interactions.create(
-    model="gemini-3.6-flash",
-    input="Olá, eu sou o PETER"
-)
+def pensar(mensagem):
+    mensagem = str(mensagem).strip()
 
-texto = interaction.output_text
+    if not mensagem:
+        return ""
+
+    return gerar_resposta(mensagem)
+
+
+if __name__ == "__main__":
+    resposta = pensar("Apresente-se brevemente.")
+    print(f"PETER: {resposta}")

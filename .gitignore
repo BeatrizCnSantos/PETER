@@ -24,3 +24,7 @@ Thumbs.db
 
 # Logs
 *.log
+
+#audios
+voice/entrada.wav
+voice/fala_peter.wav
