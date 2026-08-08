@@ -23,8 +23,8 @@ O PETER será um assistente pessoal capaz de:
 ## Roadmap
 
 - [x] PETER v0.1 — Voz
-- [x] PETER v0.2 — Comandos do sistema
-- [x] PETER v0.3 — Inteligência artificial
+- [ ] PETER v0.2 — Comandos do sistema
+- [ ] PETER v0.3 — Inteligência artificial
 - [ ] PETER v0.4 — Memória
 - [ ] PETER v0.5 — Automação
 - [ ] PETER v0.6 — Visão computacional
